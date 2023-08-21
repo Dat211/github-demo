@@ -1,0 +1,121 @@
+html {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    background-color: #7fbbe4;
+    height: 100vh;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Login_bg_lg.png);
+}
+
+.form-container {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+/*Image*/
+.form-thumb {
+    width: 650px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a img {
+    width: 122px;
+    height: 122px;
+}
+
+.thumb {
+    margin-top: 70px;
+}
+/*Form*/
+.form {
+    width: 350px;
+}
+.form form {
+    margin: 205px 0 15px 15px;
+    width: 320px;
+    background-color: #fff;
+    height: 370px;
+    border: 5px solid #6bb9f0;
+    padding: 15px;
+    position: relative;
+}
+.form form img {
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #fff;
+    top: -30px;
+    right: 20px;
+}
+
+.form form h2 {
+    font-size: 2rem;
+    color: #1b78b9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.form form .form-group {
+    margin-bottom: 10px;
+}
+
+.form form .form-group p {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.form form .form-group input {
+    height: 38px;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: 1px solid #c5c5c5;
+}
+.form form .form-group input:active
+.form form .form-group input:focus{
+    box-shadow: inset 0px 0px 40px 40px #DBA632;
+}
+.form form button {
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form form button:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+/*footer*/
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+footer a{
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
